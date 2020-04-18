@@ -4,13 +4,18 @@
   }
   
   body {
-    font-family: Arial, sans-serif, monospace;
+    font-family: Lobster, Arial, sans-serif, monospace;
     font-size: 1.6rem;
     line-height: 1.5;
     text-align: center;
     color: rgb(26, 26, 26);
-    background-color: plum;
+    background-color: #7F39FB;
     margin: 0;
+  }
+
+  header {
+      background-color: #3700B3;
+      color: #000;
   }
   
   h1 {
@@ -43,14 +48,13 @@
   }
   
   img {
-    max-width: 50%;
+    max-width: 100vw;
     display: block;
-    height: 50%;
+    height: auto;
     margin: 0 auto;
   }
   
   #img-div {
-    background: pink;
     padding: 10px;
     margin: 0 auto;
   }
@@ -69,8 +73,10 @@
   #info-heading {
     margin: 25px 0;
     text-align: center;
-    border: royalblue;
+    border-width: 2em;
+    border-color: #9B9B9B;
     border-radius: 50%;
+    border-style: solid;
   }
 
   dl {
@@ -81,10 +87,10 @@
   }
   
   ul {
-    max-width: 550px;
+    max-width: auto;
     margin: 0 auto 25px auto;
     text-align: left;
-    line-height: 0.5;
+    line-height: 1;
   }
   
   dt, dd, li {
@@ -97,11 +103,11 @@
     margin: 0 auto 20px auto;
     text-align: left;
     border: gray;
-    background-color: honeydew;
+    border-style: honeydew;
   }
 
   cite {
     font-style: italic;
-    text-align: match-parent;
+    text-align: right;
   }
   
