@@ -12,11 +12,6 @@
     margin: 0;
   }
 
-  header {
-      border-radius: 5%;
-      color: #000;
-  }
-  
   h1 {
     font-size: 4rem;
     margin-bottom: 0;
@@ -73,22 +68,22 @@
   #info-heading {
     margin: 25px 0;
     text-align: center;
-    border-width: 2em;
+    border-width: 1em;
     border-color: #9B9B9B;
-    border-radius: 25%;
+    border-radius: 10px;
     border-style: solid;
   }
 
   dl {
-    max-width: 500px;
+    max-width: 550px;
     margin: 0 auto 50px auto;
     text-align: justify;
     line-height: 1.5;
   }
   
   ul {
-    max-width: auto;
-    margin: 0 auto 25px auto;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
     text-align: left;
     line-height: 1;
   }
@@ -102,13 +97,9 @@
     max-width: 500px;
     margin: 0 auto 20px auto;
     text-align: left;
-    border: 2em;
-    border-color: #3D7E9A;
-    border-radius: 10px;
   }
 
   cite {
     font-style: italic;
-    text-align: end;
   }
   
