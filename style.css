@@ -8,7 +8,8 @@
     font-size: 1.6rem;
     line-height: 1.5;
     text-align: center;
-    color: black;
+    color: rgb(26, 26, 26);
+    background-color: plum;
     margin: 0;
   }
   
@@ -20,18 +21,19 @@
   @media (max-width: 460px) {
     h1 {
       font-size: 3.5rem;
-      line-height: 1.2;
+      line-height: 1;
     }
   }
   
   h2 {
-    font-size: 3.25rem;
+    font-size: 3rem;
+    margin-top: 0rem;
   }
    
   #main {
-    margin: 30px 8px;
+    margin: auto;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 10px;
   }
   
   @media (max-width: 460px) {
@@ -41,20 +43,21 @@
   }
   
   img {
-    max-width: 100%;
+    max-width: 50%;
     display: block;
-    height: auto;
+    height: 50%;
     margin: 0 auto;
   }
   
   #img-div {
-    background: white;
+    background: pink;
     padding: 10px;
-    margin: 0;
+    margin: 0 auto;
   }
   
   #img-caption {
     margin: 15px 0 5px 0;
+    font-size: 1.2rem;
   }
   
   @media (max-width: 460px) {
@@ -64,32 +67,41 @@
   }
   
   #info-heading {
-    margin: 50px 0;
+    margin: 25px 0;
     text-align: center;
+    border: royalblue;
+    border-radius: 50%;
   }
 
   dl {
-    max-width: 550px;
+    max-width: 500px;
     margin: 0 auto 50px auto;
-    text-align: left;
-    line-height: 1.6;
+    text-align: justify;
+    line-height: 1.5;
   }
   
   ul {
     max-width: 550px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 25px auto;
     text-align: left;
-    line-height: 1.6;
+    line-height: 0.5;
   }
   
   dt, dd, li {
-    margin: 16px 0;
+    margin: 10px 0;
   }
   
   blockquote {
     font-style: italic;
-    max-width: 545px;
-    margin: 0 auto 50px auto;
+    max-width: 500px;
+    margin: 0 auto 20px auto;
     text-align: left;
+    border: gray;
+    background-color: honeydew;
+  }
+
+  cite {
+    font-style: italic;
+    text-align: match-parent;
   }
   
