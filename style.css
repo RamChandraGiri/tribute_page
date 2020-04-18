@@ -8,13 +8,12 @@
     font-size: 1.6rem;
     line-height: 1.5;
     text-align: center;
-    color: rgb(26, 26, 26);
-    background-color: #7F39FB;
+    background-color: #EEEEEE;
     margin: 0;
   }
 
   header {
-      background-color: #3700B3;
+      border-radius: 5%;
       color: #000;
   }
   
@@ -52,6 +51,7 @@
     display: block;
     height: auto;
     margin: 0 auto;
+    background-color: #FFFFFF;
   }
   
   #img-div {
@@ -75,7 +75,7 @@
     text-align: center;
     border-width: 2em;
     border-color: #9B9B9B;
-    border-radius: 50%;
+    border-radius: 25%;
     border-style: solid;
   }
 
@@ -102,12 +102,13 @@
     max-width: 500px;
     margin: 0 auto 20px auto;
     text-align: left;
-    border: gray;
-    border-style: honeydew;
+    border: 2em;
+    border-color: #3D7E9A;
+    border-radius: 10px;
   }
 
   cite {
     font-style: italic;
-    text-align: right;
+    text-align: end;
   }
   
