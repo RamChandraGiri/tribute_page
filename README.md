@@ -1,2 +1,1 @@
-# tribute_page
- Tribute to Maharajadhiraja Prithivi Narayan Shah
+Tribute to Maharajadhiraja Prithivi Narayan Shah for the succesful completion of freecodecamp responsive web design project.
